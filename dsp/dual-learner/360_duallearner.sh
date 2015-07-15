@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date=`date -d -10min +%s`
+date=`date +%s`
 
 dual=`cat /tmp/dual|tail -1 |awk '{print $1}'`
 
